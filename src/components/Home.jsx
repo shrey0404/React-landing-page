@@ -5,7 +5,7 @@ import Contact from './Contact'
 const Home = () => {
     return (
         <>
-            <div className='home'>
+            <div className='home' id='home'>
                 <main>
                     <h1>The Modern Landing page for</h1>
                     <h2>React developers</h2>
@@ -20,7 +20,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className='home3'>
+            <div className='home3' id='about'>
                 <div>
                     <h1>Starter: Ignite Your React Journey!</h1>
                     <p>At Starter, we're on a mission to revolutionize the way React developers create web applications. React has transformed the web development landscape, and we believe it should be an accessible and empowering experience for everyone. Whether you're a seasoned professional or just embarking on your journey into the world of React, we're here to guide and support you every step of the way.
