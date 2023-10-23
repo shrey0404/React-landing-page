@@ -1,0 +1,66 @@
+@import "colors";
+
+
+.l-footer {
+    padding: 4rem 6rem;
+    background: $light;
+    color: black;
+}
+
+
+
+.l-top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.l-top a {
+    color: black;
+    font-size: 4rem;
+    margin-left: 1rem;
+}
+
+.l-top a:hover {
+    color: lightblue;
+}
+
+.l-bottom {
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.l-bottom div {
+    display: flex;
+    flex-direction: column;
+}
+
+.l-bottom h4 {
+    font-size: 1.3rem;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.l-bottom a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 4rem 2rem;
+    }
+
+    .footer i {
+        padding: 1rem 1rem 0 0;
+    }
+
+    .bottom div {
+        width: 50%;
+    }
+}

@@ -1,11 +1,11 @@
 import React from 'react'
-import "../styles/Home.scss"
 import vg from "../assets/grap.png"
-
+import Services  from './Services'
+import Contact from './Contact'
 const Home = () => {
     return (
         <>
-            <div className='homepage'>
+            <div className='homepage' id='home'>
                 <main>
                     <h1>The Modern Landing page for</h1>
                     <h2>React developers</h2>
@@ -16,12 +16,11 @@ const Home = () => {
                 <img src={vg} alt='graphics'></img>
                 <div>
                     <p>
-                        "Welcome to the future of React development. Our platform streamlines your workflow, offering React developers a seamless and efficient experience. Whether you're a pro or just getting started, we're here to empower you to create stunning, high-performance applications effortlessly. Join us today and redefine your React development journey."
-                    </p>
+                    "Welcome to the future of web development, where innovation meets simplicity. Our cutting-edge platform is designed exclusively for React developers who demand the best. Say goodbye to time-consuming setups and hello to a seamless, efficient development process. Whether you're a seasoned pro or just starting your journey with React, our tools and resources will empower you to build stunning, high-performance applications with ease. Join us today and experience the next evolution in React development – where your ideas come to life, beautifully."                    </p>
                 </div>
             </div>
 
-            <div className='homepage3'>
+            <div className='homepage3' id='about'>
                 <div>
                     <h1>Starter: Ignite Your React Journey!</h1>
                     <p>At Starter, we're on a mission to revolutionize the way React developers create web applications. React has transformed the web development landscape, and we believe it should be an accessible and empowering experience for everyone. Whether you're a seasoned professional or just embarking on your journey into the world of React, we're here to guide and support you every step of the way.
@@ -33,6 +32,10 @@ const Home = () => {
                         Starter is more than just a platform; it's a community of like-minded developers and learners who are passionate about React. Share your ideas, collaborate on projects, and connect with fellow developers from around the world. It's a place to fuel your creativity, inspire your innovation, and make lasting connections in the field.</p>
                 </div>
             </div>
+
+            <Services />
+
+            <Contact />
         </>
     )
 }
