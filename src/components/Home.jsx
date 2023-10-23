@@ -1,26 +1,26 @@
 import React from 'react'
 import vg from "../assets/grap.png"
-import Services  from './Services'
+import Services from './Services'
 import Contact from './Contact'
 const Home = () => {
     return (
         <>
-            <div className='homepage' id='home'>
+            <div className='home'>
                 <main>
                     <h1>The Modern Landing page for</h1>
                     <h2>React developers</h2>
                     <p>The easiest way to build a React landing page in seconds.</p>
                 </main>
             </div>
-            <div className='homepage2'>
+            <div className='home2'>
                 <img src={vg} alt='graphics'></img>
                 <div>
                     <p>
-                    "Welcome to the future of web development, where innovation meets simplicity. Our cutting-edge platform is designed exclusively for React developers who demand the best. Say goodbye to time-consuming setups and hello to a seamless, efficient development process. Whether you're a seasoned pro or just starting your journey with React, our tools and resources will empower you to build stunning, high-performance applications with ease. Join us today and experience the next evolution in React development – where your ideas come to life, beautifully."                    </p>
+                        "Welcome to the future of web development, where innovation meets simplicity. Our cutting-edge platform is designed exclusively for React developers who demand the best. Say goodbye to time-consuming setups and hello to a seamless, efficient development process. Whether you're a seasoned pro or just starting your journey with React, our tools and resources will empower you to build stunning, high-performance applications with ease. Join us today and experience the next evolution in React development – where your ideas come to life, beautifully."                    </p>
                 </div>
             </div>
 
-            <div className='homepage3' id='about'>
+            <div className='home3'>
                 <div>
                     <h1>Starter: Ignite Your React Journey!</h1>
                     <p>At Starter, we're on a mission to revolutionize the way React developers create web applications. React has transformed the web development landscape, and we believe it should be an accessible and empowering experience for everyone. Whether you're a seasoned professional or just embarking on your journey into the world of React, we're here to guide and support you every step of the way.
@@ -34,10 +34,9 @@ const Home = () => {
             </div>
 
             <Services />
-
             <Contact />
         </>
     )
 }
 
-export default Home
+export default Home;

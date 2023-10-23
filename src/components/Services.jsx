@@ -1,5 +1,4 @@
 import React from 'react'
-import "../styles/Service.scss"
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
 import img1 from '../assets/simg1.jpeg'

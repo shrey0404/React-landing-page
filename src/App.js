@@ -9,6 +9,9 @@ import "./styles/Header.scss"
 import "./styles/Home.scss";
 import "./styles/Footer.scss";
 import "./styles/Contact.scss";
+import "./styles/mediaqueries.scss";
+import "./styles/Service.scss";
+import About from "./components/About";
 
 function App() {
   return (
@@ -16,10 +19,11 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/services" element={<Services />} />
+        <Route path="/services" element={<Services/>} />
+        <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+      <Footer/>
     </Router>
   )
 }
