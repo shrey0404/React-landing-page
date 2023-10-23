@@ -33,10 +33,16 @@
         height: 80%;
         position: absolute;
         background: no-repeat center/auto url("../assets/img7.png");
-
-    }  
+        animation: floatUpDown 2s infinite;    }  
 }
-
+@keyframes floatUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust this value to control the float distance */
+    }
+}
 .home2{
     width: 100%;
     height: 80vh;
